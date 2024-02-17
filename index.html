@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="game">
+            <h3>
+                Guess The Number Between 1 - 100
+            </h3>
+            <div class="input-wrapper">
+                <input type="number" placeholder="00" id="guess" />
+                <button id="check-btn">Guess</button>
+            </div>
+            <p id="no-of-guesses">No. Of Guesses: 0</p>
+            <p id="guessed-nums">Guessed Numbers are: None</p>
+        </div>
+        <button id="restart">Restart</button>
+        <div class="result">
+            <div id="hint"></div>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
